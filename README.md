@@ -1,3 +1,4 @@
 This is the english repo for the orp-cambotv1 robot.It is a Raspberry Pi 2wheeled robot in c++ using the adeept robot hat https://www.amazon.nl/-/en/Adeept-Raspberry-Expansion-Driver-Tutorial/dp/B0F4R6TL2W/ref=sr_1_1?crid=2XSL9U07XSCBJ&dib=eyJ2IjoiMSJ9.Nsf5-DoreP87r46Uv0BmYEVa-gHkJGeK2Doa_sG4A58Wyc1P_3IwHNjGcJRjRwzv2mBaew7cJd7OByezzcVSFHfojVP_pUR1m2EXhH215OtsubFa4RyN-AsgUpipaRp6MWBxk1PWUXsUPdiuotbrGgMGNplOMcvVX4i0H1mOYTQ.jxX6Mp5xwcz-vmUkh5CbEuL-R0pxtGpMPwKnrSiEGWU&dib_tag=se&keywords=adeept+robot+hat&qid=1777705253&sprefix=adeept+robot+hat%2Caps%2C77&sr=8-1
 and the lccv software for c++ camera view: https://github.com/kbarni/LCCV.Before trying the project out.It is advised to read the list_eng.txt first
-first for to know the: materials,tools,skills requirement,video playlist if needed.
+first for to know the: materials,tools,skills requirement,video playlist if needed.The because of it being a c++ project tutorials
+are exclusively posted around 1 month first on vanillo.tv: https://vnlo.tv/_3dKKJA2xLp before it i posted on youtub: https://youtu.be/zg2G7A2JOcM
