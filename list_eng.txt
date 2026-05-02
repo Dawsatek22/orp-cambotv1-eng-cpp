@@ -1,0 +1,64 @@
+Warnings and summaries:
+This is a project uses around 5 to 12 volt so be careful.the links for: materials,tools,are there for reference.You do not need to buy them from the linked pages if possible per say.
+.if there is made a mistake or some is not made right please notify so i can correct any mistake.
+Required skills:
+c++ programming,cloning a github repo,using cmake,using vnc viewer to log into the raspberry pi remotely,3d printing or aquiring 3d printed parts,
+soldering or someone wh can solder parts,pairing a BLE gamepad to the raspberry pi os bluetooth adapter.
+
+Required software for the raspberry pi:
+
+LCCV: https://github.com/kbarni/LCCV,
+cmake: https://cmake.org/download/,
+libevdev (you can do a sudo install like this: sudo apt install libevdev2 libevdev-dev -y)
+,gcc compiler (is already pre installed on the raspberry pi os)
+PiPCA9685: https://github.com/barulicm/PiPCA9685/tree/main.
+
+Required software for the pc/laptop:
+vnc viewer: https://www.realvnc.com/en/connect/download/viewer/.
+
+Recomended tools and materials:
+1x pc/laptop for using vnc viewer.
+1x BLE gamepad(i use currently a Xbox Wireless model 1708 for this project .you can also use a ps4,ps3 controller  or something like that)
+1x wifi connection for raspberry pi & pc/laptop.
+1x raspberry pi 4 (4gb or more recommended) https://www.tinytronics.nl/en/development-boards/single-board-computers/raspberry-pi-4-model-b-4gb.
+3x JST-XH 2.54mm 2-Pin Male connector plug (1x soldered to the: 8x AA Battery Holder with Loose Wires. and 2x to the dc motor each) https://www.amazon.nl/-/en/YIXISI-JST-XH-2-54mm-Female-Connector/dp/B08JVB3K7C/ref=sr_1_1?crid=13Y4YGH1BTC9R&dib=eyJ2IjoiMSJ9.ar9aBucNxcMIfRbWIhj3EAgV47fqduOaw12Vg_wV44UMqbYZO7gOiIwv4-IakAWDDbKpHDHSJMxXSn9X6MOPwTIGrszV3nFDAJt1T3xbbr-kTs1tk_EN7QWW7q9J2clUkvOc9b9xEfqGGJieLprfZ9w6HAZJKMvhWvXl4rjxJ37vTRClGZHjyQcjJOCjGZXUYntwT3s9BMP0OCnvHsdGYAAZcKdiVznEsHt1H3dicqIwZSlhB0PzZC2YxwQM_Rnl_TQg4fIMqpag51WmyL-2BpDdpsJyGCXYMFuwrB2L4iI.fmnEPEmBZJOlNwdMbsTRn-5SY1_wu7mQlMyrE_IcYTE&dib_tag=se&keywords=jst%2Bxh%2B2-pin%2Bmicro%2Bplug&qid=1776698909&sprefix=jst%2Bxh%2B2-pin%2Bmicro%2Bplug%2Caps%2C82&sr=8-1&th=1.
+8x aa batteries.
+1x adeept robot hat https://www.google.com/aclk?sa=L&ai=DChsSEwjS2uGW5vyTAxUPkIMHHUWkHsMYACICCAEQCBoCZWY&co=1&ase=2&gclid=CjwKCAjwnZfPBhAGEiwAzg-VzCUlNLWYgf4SbPMGX5SGsfjHr1uY0B5XTm1Hr1F3auU2f7L1HEn_phoCTLoQAvD_BwE&cce=2&category=acrcp_v1_32&sig=AOD64_19fuvKLMdSvopkjdzoxkLFU9S6EQ&ctype=5&q=&nis=4&ved=2ahUKEwju7NqW5vyTAxWV1QIHHb-pDyUQ5bgDKAB6BAgJEBE&adurl=.
+1x 8x AA 12v Battery Holder with Loose Wires 
+2x tt motor https://www.amazon.nl/-/en/Motor-DC3V-6V-Transmission-200RPM-Double/dp/B0FB3FLZ26/ref=sr_1_8?crid=2NRFAT29NONSP&dib=eyJ2IjoiMSJ9.PiKlRzBORBokrLGHlixU5nGu4TEFEr8m1vORcnMeaK2q_c50H9bob1Ws0BUJGTl4Jy6TvPVFwHF_cpfGNQiCTY5jROdys9d06vPDwFzak-VOA3-pbI4qXLBx7SphQJpHEuEDZi606tFAeof6366r9WPODi_74I56bgldzo7_8QDvy_bYAiBVeOfqIHPzzYGM2B0BSudb-mozeMrZ-VVUAr6kBzUZe7CNHr-0BOq3VoNK3XhYMmMvdcDif69R5ue_eooStVYUvXwCxMmJl35wHXLgTla2l4rYRdeSNPubgqU.z8ndjKBljQshiSCR60_qt9s5WK7KQV4SsOByLrEENus&dib_tag=se&keywords=dc+motor+6v&qid=1776699282&sprefix=dc+motor%2Caps%2C100&sr=8-8.
+2x tt motor wheels https://www.amazon.nl/-/en/Reland-Smart-Robot-Plastic-Wheel/dp/B08R7QWJGP/ref=sr_1_24?crid=1WS0747N7I9LY&dib=eyJ2IjoiMSJ9.OhjE2kAqt2jmAeUs-LBslfQ6GrbVW40PxLZjcnXf9OAJC5Zj1Yl1R95dPDI3LOYllemiKTVnfENZuemyGLa97ds4TthNQQIjCQwsUyraZQHNlJY3e8DerYV4-vyGYkQIuafk2ek6zALthyNPGOM9DQEYU4incEBOSYdOFHWzRaVFoyz0m24oH0EWhnLWZ5ep8Je9PD8TtAvMwzYcV0EhHSFG4BgsbOXT5vu5pRhi4x2yR_aKD8ifV-Kg3nl9S6bikr55VUUu5RoXUqV0Wj9nv-WbqJN0SJSGuyvw2g3j_L4.Ls3UWVqxM2wXZpZwB6LLM0ipEb6NOZ6IFc61b02AOMs&dib_tag=se&keywords=tt+motor+wheels&qid=1776699391&sprefix=tt+motor+whee%2Caps%2C89&sr=8-24.
+1x 16 gb or more micro sd card with raspberry pi os installed.
+1 x https://www.google.com/aclk?sa=L&ai=DChsSEwirieav4fyTAxWcpoMHHeInJNEYACICCAEQDxoCZWY&co=1&ase=2&gclid=CjwKCAjwnZfPBhAGEiwAzg-VzEelYyX0-YKRACsUBw0DHwREfpghuWPpD0tJ_V6WPEfRUL-zj4BOJRoC_KQQAvD_BwE&cce=2&category=acrcp_v1_32&sig=AOD64_2ypszUBxUSfKRnRtB6gRT740hyvg&ctype=5&q=&nis=4&ved=2ahUKEwj2_N2v4fyTAxUYRv4FHZPqNHMQ5bgDKAB6BAgGEAs&adurl=.
+1x Raspberry Pi Camera v2 https://www.raspberrystore.nl/PrestaShop/nl/camera/173-raspberry-pi-camera-v2-0640522710881.html?_gl=1*1fgprht*_up*MQ..*_ga*NzYzOTg4MzI5LjE3NzY3MDA2MTA.*_ga_W13TC9FVPF*czE3NzY3MDA2MDgkbzEkZzAkdDE3NzY3MDA2MDgkajYwJGwwJGg0NzYwMTE2ODU.
+1x raspberry pi 30 mm camera cable https://www.amazon.nl/-/en/sspa/click?ie=UTF8&spc=MTo2MTcwMjQwNDg0ODMwNTg1OjE3NzY3MDA3MDg6c3BfYXRmOjIwMDY2ODk1ODYwNDk4OjowOjo&url=%2FAZDelivery-Replacement-30cm-compatible-Raspberry%2Fdp%2FB075PBTQPG%2Fref%3Dsr_1_2_sspa%3Fcrid%3DPGG7BBTDI8OE%26dib%3DeyJ2IjoiMSJ9.R78UNQtkmjZE_xaumr1VoqZQtVZNXDgOR1LoQPyhc6u2aBHl00dJyjwlNAm7S_rl16bSttfEPCRdwMM7FcXDfiScyDn2U2qUcM8EUHVajFs4MwcWskwc_b-9JLmE_rXiCfhFesKg4qNbcOV-eJ3sTbf_13LabD4to-3_f92hI9FkqFTshou5lrHVnXLif6EUSnZ02RG4jXWUpmCAlPMoeCXCxcAVcuKKM1O4g89VRhVjDOOxwl-fJbG5acHFaMIZ2aUvwtgh07GsZ1UI7I-5CdXAEEVNECHLophZweMED6M.nObucCRFJC5I9r0yxU6r2kpua6Ve2KgeoTn5O2WjTws%26dib_tag%3Dse%26keywords%3Draspberry%2Bpi%2Bcamera%2Bcable%26qid%3D1776700708%26sprefix%3D%252Caps%252C140%26sr%3D8-2-spons%26aref%3DiLP0pud8x1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=iLP0pud8x1&sp_cr=DUB.
+1x m2 allen wrench(optional).
+1x m2.5 allen wrench.
+1x m3 allen wrench.
+2x m2x8 mm allen bolts.
+4x m2.5x20+6 mm brass standoff spacer
+4x m2.5x6 mm allen bolts.
+8x m3x10 mm allen bolts.
+12x m3x12 mm allen bolts.
+2x m3x20 mm allen bolts
+2x m3x30 mm allen bolts.
+3D parts needed(the parts are in the cad_parts folder of the repo):
+
+for tpu:
+2x nikodembartnik-45-12mm_caster_wheel.3mf
+
+for pla:
+1x cam_2-forward.stl
+1x d22_aa8x12v_holder.stl
+1x d22_cam_plate_100x160mm.stl
+1x rupantar2002-147-MotorMountingBracket(right).stl
+1x rupantar2002-147-MotorMountingBracket(left).stl
+4x nikodembartnik-98-distance_HS_55mm.stl
+1x nikodembartnik-216-plate.stl
+1x Radek_Janecka-172-RaspberryPi_holder.stl
+
+
+Video playlist:
+00:00 warnings and summaries.
+05:00 making the 1e layer.
+11:14 making the 2e layer.
+17:43 testing the robot.
